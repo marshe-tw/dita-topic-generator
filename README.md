@@ -1,6 +1,6 @@
 # DITA Topic Generator
 
-A Python tool that turns raw, unstructured feature notes into valid DITA 1.3 topics (task, concept, or reference) using the Claude API.
+A Python tool that turns raw, unstructured feature notes into well-formed DITA topics (task, concept, or reference) using the Claude API.
 
 ## Why
 
@@ -21,7 +21,7 @@ socket, then connect to battery port - not the other way round!! ...
 
 1. The tool reads a plain text file with a raw description.
 2. It sends the text to the Claude API together with DITA authoring rules for the selected topic type.
-3. It checks that the returned XML is well-formed before saving it. Invalid output is never saved.
+3. It checks that the returned XML is well-formed before saving it. Malformed output is never saved.
 
 ## Requirements
 
@@ -47,8 +47,8 @@ The generated topics are saved in the `output` folder.
 
 ## What I learned
 
-- AI produces a strong first draft, but it still needs a technical writer. In testing, the model repeated the product name in every sentence, turned a simple instruction into a warning, and once wrote a self-referencing short description.
-- Valid XML is not the same as correct content. The validator catches broken XML, but only a human catches a wrong sentence.
+- AI produces a strong first draft, but it still needs a technical writer. In testing, the model repeated the product name in every sentence, wrote a short description that talked about "this topic", and once described the battery as "lithium-free-claim-neutral".
+- Well-formed XML is not the same as correct content. The script catches broken XML, but only a human catches a wrong sentence.
 - Clear authoring rules in the prompt, such as "one action per step" and "do not invent facts", make the output much more reliable.
 
 ## Note
