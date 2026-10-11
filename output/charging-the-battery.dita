@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="charging-kivra-battery">
+  <title>Charging the Kivra Battery</title>
+  <shortdesc>Charge the Kivra Battery so that it is fully charged and ready for use.</shortdesc>
+  <taskbody>
+    <prereq>
+      <p>The ambient temperature is between 10 °C and 30 °C.</p>
+    </prereq>
+    <steps>
+      <step>
+        <cmd>Take the Kivra Battery off the bike.</cmd>
+        <info>Use the key and turn it to the left.</info>
+      </step>
+      <step>
+        <cmd>Plug the charger into the wall socket.</cmd>
+        <info>
+          <note type="caution">Always plug the charger into the wall socket first and connect it to the Kivra Battery second. Do not connect the charger in the reverse order.</note>
+        </info>
+      </step>
+      <step>
+        <cmd>Connect the charger to the battery port of the Kivra Battery.</cmd>
+      </step>
+      <step>
+        <cmd>Wait until all 4 LEDs are lit.</cmd>
+        <info>The LEDs show the charging progress. Four LEDs indicate that the Kivra Battery is fully charged. Charging takes around 4-5 hours from empty.</info>
+      </step>
+      <step>
+        <cmd>Unplug the charger from the battery port of the Kivra Battery.</cmd>
+        <info>
+          <note type="caution">Always unplug the charger from the Kivra Battery first and from the wall socket second.</note>
+        </info>
+      </step>
+      <step>
+        <cmd>Unplug the charger from the wall socket.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The Kivra Battery is fully charged.</p>
+    </result>
+  </taskbody>
+</task>

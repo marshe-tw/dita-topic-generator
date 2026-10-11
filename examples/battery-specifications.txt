@@ -1,0 +1,4 @@
+kivra battery specs: 36V, 14Ah, 504Wh. weight 2.9kg. range 60-110km
+depends on mode+terrain. charging time 4.5h (standard charger 4A). charging
+temp 10-30C, operating temp -10 to 40C. approx 1000 charge cycles until 80%
+capacity. IP54 splash proof

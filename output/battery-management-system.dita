@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="battery-management-system">
+  <title>Battery management system</title>
+  <shortdesc>The battery management system (BMS) in every Kivra Battery monitors the cells and protects them during charging.</shortdesc>
+  <conbody>
+    <p>The battery management system (BMS) is built into every Kivra Battery. It continuously monitors the temperature and voltage of the cells.</p>
+    <p>If the cells become too hot or too cold, the BMS automatically stops the charging process. This protects the cells from damage.</p>
+    <p>The BMS also balances the cells so that they wear evenly. Even wear extends the lifetime of the Kivra Battery.</p>
+    <p>Because of this protection, a Kivra Battery sometimes does not charge in winter, for example when it is stored in a garage. The low cell temperature causes the BMS to stop charging.</p>
+    <note type="important">A Kivra Battery that does not charge because of cold conditions is not defective. The BMS is working as designed to protect the cells.</note>
+  </conbody>
+</concept>

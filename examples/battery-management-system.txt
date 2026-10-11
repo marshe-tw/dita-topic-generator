@@ -1,0 +1,5 @@
+BMS = battery management system, built into every kivra battery. watches
+cell temp + voltage all the time. if too hot or too cold it stops charging
+automatically, protects the cells. also balances the cells so they wear
+evenly -> longer lifetime. reason why battery sometimes wont charge in
+winter when stored in garage. not a defect!

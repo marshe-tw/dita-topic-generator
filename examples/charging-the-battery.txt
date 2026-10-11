@@ -1,0 +1,4 @@
+charging: take battery off bike first (key, turn left). plug charger into wall
+socket, then connect to battery port - not the other way round!! LEDs show
+progress, 4 LEDs = full. takes around 4-5h from empty. unplug charger from
+battery first then from wall. only charge between 10 and 30 degrees C

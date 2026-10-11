@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="kivra-battery-specifications">
+  <title>Kivra Battery specifications</title>
+  <shortdesc>The Kivra Battery is a 36 V, 504 Wh battery pack with a range of 60 to 110 km.</shortdesc>
+  <refbody>
+    <properties>
+      <prophead>
+        <proptypehd>Specification</proptypehd>
+        <propvaluehd>Value</propvaluehd>
+      </prophead>
+      <property>
+        <proptype>Voltage</proptype>
+        <propvalue>36 V</propvalue>
+      </property>
+      <property>
+        <proptype>Capacity</proptype>
+        <propvalue>14 Ah</propvalue>
+      </property>
+      <property>
+        <proptype>Energy</proptype>
+        <propvalue>504 Wh</propvalue>
+      </property>
+      <property>
+        <proptype>Weight</proptype>
+        <propvalue>2.9 kg</propvalue>
+      </property>
+      <property>
+        <proptype>Range</proptype>
+        <propvalue>60-110 km, depending on mode and terrain</propvalue>
+      </property>
+      <property>
+        <proptype>Charging time</proptype>
+        <propvalue>4.5 h with the standard charger (4 A)</propvalue>
+      </property>
+      <property>
+        <proptype>Charging temperature</proptype>
+        <propvalue>10-30 °C</propvalue>
+      </property>
+      <property>
+        <proptype>Operating temperature</proptype>
+        <propvalue>-10 to 40 °C</propvalue>
+      </property>
+      <property>
+        <proptype>Battery life</proptype>
+        <propvalue>Approximately 1000 charge cycles until 80% of capacity remains</propvalue>
+      </property>
+      <property>
+        <proptype>Ingress protection</proptype>
+        <propvalue>IP54 (splash proof)</propvalue>
+      </property>
+    </properties>
+  </refbody>
+</reference>
